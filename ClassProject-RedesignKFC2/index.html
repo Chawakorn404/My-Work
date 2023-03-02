@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Homework6</title>
+    <script type="text/javascript" src="/js/mySlide.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/menu_button.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.bxslider').bxSlider();
+            $('.bxslider2').bxSlider({
+                pager: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <head>
+            <div id="head">
+                <div class="content-left">
+                    <div id="LOGO">
+                        <img src="/images/KFC-Logo.wine.png" alt="KFC_LOGO" width="126px" height="86px">
+                    </div>
+                    <h1>โปรโมชั่น</h1>
+                </div>
+                <!-- content-left -->
+
+                <div class="content-right">
+                    <div id="menu-list">
+                        <h2>รายการอาหาร</h2>
+                        <h3>ชุดคอมโบ</h3>
+                        <h4>บริการช่วยเหลือ</h4>
+                    </div>
+                </div>
+                <!-- content-right -->
+
+            </div>
+        </head>
+        <div id="part2">
+            <div id="box-part2">
+                <h1>บริการจัดส่งอาหาร</h1>
+            </div>
+            <div id="basket">
+                <h2><i class="fas fa-shopping-basket"></i></h2>
+                <h1>฿737.00</h1>
+            </div>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="/images/friendchicknew_EN.jpg" style="width:1280px" height="437px">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/images/th-Th_kaitermjai.jpg" style="width:1280px" height="437px">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/images/th-Th_tue45set.jpg" style="width:1280px" height="437px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="/images/th-Th_Golden-bucket.jpg" style="width:1280px" height="437px">
+                </div>
+
+            </div>
+            <br>
+
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <!-- part2 -->
+        <div id="part3">
+            <div id="head-part3">
+                <div id="box-part3">
+                    <h1>ประเภทอาหาร</h1>
+                </div>
+            </div>
+            <div id="all-box">
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/fried_chicken_PNG14094.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>ไก่ทอด</h1>
+                    </div>
+                </div>
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/DyyUR6FUYAA_Ps_.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>ข้าว</h1>
+                    </div>
+                </div>
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/iced_milk_tea_brown_16Oz.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>เครื่องดื่ม</h1>
+                    </div>
+                </div>
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/KFC_Nuggets.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>ทานเล่น</h1>
+                    </div>
+                </div>
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/Reg_KFC_Coleslaw.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>เครื่องเคียง</h1>
+                    </div>
+                </div>
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/15701802141540289146CSO_4550_DC_CHOSUN.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>ไอศกรีม</h1>
+                    </div>
+                </div>
+                <div class="box-food">
+                    <div class="box-img">
+                        <img src="/images/Double_Cheese_Burger.png" width="200px" height="150px">
+                    </div>
+                    <div class="text-pic">
+                        <h1>เบอร์เกอร์</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- part3 -->
+        <div id="red-line"></div>
+        <div id="part4">
+            <div id="search">
+                <input type="text" name="search" placeholder="ค้นหาเมนู ..." id="search-box" style="width: 260px; height: 30px; border: none; background-color: black; border-radius: 20px; font-size: 18px; font-family: 'Segoe UI';">
+                <button><i class="fas fa-search"></i></i></button>
+            </div>
+            <div id="all-food-box">
+                <div class="food-box">
+                    <div class="content-left">
+                        <img src="/images/korean_party_new.png">
+                    </div>
+
+                    <div class="content-right">
+                        <h1>ไก่ทอดกรอบซอสเกาหลี(พิเศษ)</h1>
+                        <h2>ไก่ทอดกรอบซอสเกาหลี 5 ชิ้น<br>ข้าวสวย 2 กล่อง<br>กิมจิ 1 ถ้วย<br><br></h2>
+                        <i class="fas fa-shopping-basket"></i>
+                        <div class="price-box">฿259.00</div>
+                    </div>
+
+                </div>
+                <!-- food-box1  -->
+                <div class="food-box">
+                    <div class="content-left">
+                        <img src="/images/korean_cns.png">
+                    </div>
+
+                    <div class="content-right">
+                        <h1>ไก่ทอดกรอบซอสเกาหลี</h1>
+                        <h2>ไก่ทอดกรอบซอสเกาหลี 5 ชิ้น<br> <br><br><br><br></h2>
+                        <i class="fas fa-shopping-basket"></i>
+                        <div class="price-box">฿99.00</div>
+                    </div>
+
+                </div>
+                <!-- food-box2  -->
+                <div class="food-box">
+                    <div class="content-left">
+                        <img src="/images/kaijaingai_new.png">
+                    </div>
+
+                    <div class="content-right">
+                        <h1>ไก่ใจใหญ่</h1>
+                        <h2>ไก่ทอดกรอบ 7 ชิ้น<br>ไก่แซ่บ 2 ชิ้น<br>ไก่ป๊อป 14 ชิ้น<br>เฟรนซ์ฟราย 1 ถุง<br>มันบด 1 ถ้วย<br> </h2>
+                        <i class="fas fa-shopping-basket"></i>
+                        <div class="price-box">฿299.00</div>
+                    </div>
+                </div>
+                <!-- food-box-3  -->
+
+                <div class="food-box">
+                    <div class="content-left">
+                        <img src="/images/fc_zabb.png">
+                    </div>
+
+                    <div class="content-right">
+                        <h1>ไก่ทีมแซ่บ</h1>
+                        <h2>ไก่แซ่บ 5 ชิ้น<br>ไก่ป๊อป 7 ชิ้น<br><br><br><br></h2>
+                        <i class="fas fa-shopping-basket"></i>
+                        <div class="price-box">฿99.00</div>
+                    </div>
+
+                </div>
+                <!-- food-box4  -->
+
+                <div class="food-box">
+                    <div class="content-left">
+                        <img src="/images/fc_bestie.png">
+                    </div>
+
+                    <div class="content-right">
+                        <h1>ไก่ขบเคี้ยว</h1>
+                        <h2>ไก่แซ่บ 4 ชิ้น<br>ไก่ป๊อป 7 ชิ้น<br>ทาร์ตไข่ 2 ชิ้น<br><br><br></h2>
+                        <i class="fas fa-shopping-basket"></i>
+                        <div class="price-box">฿129.00</div>
+                    </div>
+
+                </div>
+                <!-- food-box5  -->
+
+                <div class="food-box">
+                    <div class="content-left">
+                        <img src="/images/fc_party.png">
+                    </div>
+
+                    <div class="content-right">
+                        <h1>ไก่ปาร์ตี้</h1>
+                        <h2>ไก่แซ่บ 4 ชิ้น<br>ไก่ป๊อป 14 ชิ้น<br>เฟรนซ์ฟราย 1 ถุง<br>ไก่ไร้กระดูก 2 ชิ้น<br>โดนัทกุ้ง 1 ชิ้น</h2>
+                        <i class="fas fa-shopping-basket"></i>
+                        <div class="price-box">฿179.00</div>
+                    </div>
+
+                </div>
+                <!-- food-box6  -->
+
+            </div>
+            <!-- all-food-box -->
+            <div id="showmore">
+                <p>แสดงเพิ่มเติม</p>
+            </div>
+
+        </div>
+        <!-- part4 -->
+        <div id="red-line"></div>
+
+        <div id="part5">
+            <div class="content-left">
+                <p>YOUR ORDER</p>
+                <div id="all-food-box2">
+                    <div class="food-box2">
+                        <div class="content-left">
+                            <img src="/images/korean_party_new.png">
+                            <h3><br><br><br><br><br>x1</h3>
+                        </div>
+
+                        <div class="content-right">
+                            <h1>ไก่ทอดกรอบซอสเกาหลี(พิเศษ)</h1>
+                            <h2>ไก่ทอดกรอบซอสเกาหลี 5 ชิ้น<br>ข้าวสวย 2 กล่อง<br>กิมจิ 1 ถ้วย<br><br></h2>
+                            <div class="price-box2">฿259.00</div>
+                        </div>
+
+                    </div>
+                    <!-- food-box2-1  -->
+                    <div class="food-box2">
+                        <div class="content-left">
+                            <img src="/images/kaijaingai_new.png">
+                            <h3><br><br><br><br><br>x1</h3>
+                        </div>
+
+                        <div class="content-right">
+                            <h1>ไก่ใจใหญ่</h1>
+                            <h2>ไก่ทอดกรอบ 7 ชิ้น<br>ไก่แซ่บ 2 ชิ้น<br>ไก่ป๊อป 14 ชิ้น<br>เฟรนซ์ฟราย 1 ถุง<br>มันบด 1 ถ้วย<br> </h2>
+                            <div class="price-box2">฿299.00</div>
+                        </div>
+
+                    </div>
+                    <!-- food-box2-2  -->
+                    <div class="food-box2">
+                        <div class="content-left">
+                            <img src="/images/korean_party_new.png">
+                            <h3><br><br><br><br><br>x1</h3>
+                        </div>
+
+                        <div class="content-right">
+                            <h1>ไก่ปาร์ตี้</h1>
+                            <h2>ไก่แซ่บ 4 ชิ้น<br>ไก่ป๊อป 14 ชิ้น<br>เฟรนซ์ฟราย 1 ถุง<br>ไก่ไร้กระดูก 2 ชิ้น<br>โดนัทกุ้ง 1 ชิ้น</h2>
+                            <div class="price-box2">฿179.00</div>
+                        </div>
+
+                    </div>
+                    <!-- food-box2-3  -->
+                </div>
+
+            </div>
+            <!-- content-left -->
+
+            <div class="content-right">
+                <div id="order-box">
+                    <h1>YOUR INFO</h1>
+                    <input type="text" name="search" placeholder="ชื่อและนามสกุล ..." id="box1">
+                    <input type="text" name="search" placeholder="ที่อยู่ที่จะรับอาหาร ..." id="box2">
+                    <input type="text" name="search" placeholder="เบอร์ติดต่อ ..." id="box2">
+                    <input type="text" name="search" placeholder="รหัสส่วนลด ..." id="box3">
+                    <button id="con1">ยืนยันส่วนลด</button>
+                    <button id="con2">สั่งอาหารเพิ่ม!</button>
+                    <img src="/images/paypal.png" width="180px" height="70px" id="pay">
+                    <h2>TOTAL</h2>
+                    <h3>฿737.00</h3>
+                    <button id="con3">ยกเลิกการสั่ง</button>
+                    <button id="con4">ยืนยันการสั่ง</button>
+
+                </div>
+                <!-- order-box -->
+
+            </div>
+            <!-- content-right -->
+
+        </div>
+        <!-- part5 -->
+
+        <div id="part6">
+            <div class="text-end1">
+                <h1>บริการช่วยเหลือ</h1>
+                <ul>
+                    <li>คำถามที่พบบ่อย</li>
+                    <li>ติดตามคำสั่งซื้อ</li>
+                    <li>ติดต่อเรา</li>
+                </ul>
+            </div>
+            <!-- text-end1 -->
+
+            <div class="text-end2">
+                <h1>นโยบาย</h1>
+                <ul>
+                    <li>ข้อตกลงในการใช้งาน</li>
+                    <li>แจ้งความเป็นส่วนตัว</li>
+                </ul>
+                <!-- text-end2 -->
+            </div>
+
+            <div class="text-end3">
+                <h1>ติดตามเรา</h1>
+                <div id="all-logo">
+                    <h1><i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-line"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i></h1>
+                </div>
+            </div>
+            <!-- text-end3 -->
+
+        </div>
+        <!-- part6 -->
+
+        <footer>
+            <h1>©2021 เคเอฟซี ประเทศไทย ถูกต้องตามลิขสิทธิ์</h1>
+            <div id="lan">
+                <h2 style="color: black">TH</h2>
+                <h4>/</h4>
+                <h3 style="color: white">EN</h3>
+            </div>
+            <i class="fas fa-arrow-circle-up"></i>
+        </footer>
+
+    </div>
+    <!-- wrapper -->
+
+
+
+
+
+
+
+</body>
+
+</html>
