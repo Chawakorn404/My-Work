@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Your BMI"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txvR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txvR2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnS"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:textSize="20dp"
+        android:background="@drawable/button1"
+        android:text="SHARE" />
+
+
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="X"
+        android:textColor="@color/black"
+        android:background="@color/material_on_primary_disabled"
+        android:layout_gravity="right"
+        android:layout_marginTop="-250dp"/>
+
+
+</LinearLayout>
