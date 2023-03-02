@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
+* {
+    font-family: 'Mitr', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 100%;
+    height: 720px;
+    /* background-color: #C3F1DC; */
+    margin: 0 auto;
+}
+
+.box-left {
+    width: 50%;
+    height: 720px;
+    float: left;
+    background-color: #293449;
+}
+
+.box-right {
+    width: 50%;
+    height: 720px;
+    float: left;
+    background-color: #C3F1DC;
+}
+
+#login-wrapper {
+    width: 500px;
+    height: 720px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+
+#login-wrapper h1 {
+    width: 100%;
+    float: left;
+}
+
+#type-box {
+    width: 475px;
+    height: 46px;
+    border-radius: 25px;
+    float: left;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+#a1 {
+    margin-top: 35px;
+    font-size: 24px;
+    float: left;
+    color: #293449;
+    text-decoration: none;
+}
+
+#a1:hover,
+#a2:hover {
+    opacity: 50%;
+    transition: .3s ease-in-out;
+}
+
+#a2 {
+    margin-top: 35px;
+    font-size: 24px;
+    float: right;
+    color: #293449;
+    text-decoration: none;
+}
+
+#login-wrapper button {
+    width: 500px;
+    height: 46px;
+    border: none;
+    background-color: #E65F5F;
+    border-radius: 25px;
+    float: left;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+}
+
+#login-wrapper button:hover {
+    opacity: 70%;
+    transition: .3s ease-in-out;
+}
+
+#login-wrapper h1 {
+    color: #293449;
+}
+
+#login-wrapper h2 {
+    width: 100%;
+    float: left;
+    margin-left: 220px;
+    color: #293449;
+    font-weight: 400;
+}
+
+#login-wrapper i {
+    float: left;
+    font-size: 35px;
+}
+
+#social {
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-left: 145px;
+}
+
+.fa-brands {
+    padding: 20px;
+}
+
+.fa-facebook-f {
+    color: #4267B2;
+}
+
+.fa-google {
+    color: #DB4437;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}

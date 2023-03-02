@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
+* {
+    font-family: 'Mitr', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #C3F1DC;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #293449;
+}
+
+.header img {
+    width: 70px;
+    margin-left: 60px;
+    float: left;
+}
+
+.header-link {
+    float: right;
+    margin-right: 20px;
+}
+
+.header-link a {
+    float: left;
+    font-size: 20px;
+    color: #EFEFEF;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.heading1 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10%;
+    float: left;
+}
+
+.heading1 h1 {
+    width: 60%;
+    color: #293449;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.box {
+    width: 80%;
+    margin-left: 7%;
+    padding: 3%;
+    background-color: #EFEFEF;
+    border: solid 2px #293449;
+    float: left;
+}
+
+.box h1 {
+    font-size: 55px;
+    box-sizing: border-box;
+    /* margin-right: 10px; */
+    float: left;
+    font-weight: bold;
+    color: #293449;
+    margin-top: -5px;
+    margin-left: 100px;
+}
+
+.box p {
+    font-size: 26px;
+    color: #293449;
+    margin-top: -30px;
+    float: left;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.bx {
+    /* width: 50%; */
+    margin-left: 50px;
+    float: left;
+}
+
+.heading2 {
+    float: left;
+    width: 50%;
+}
+
+.itm {
+    float: left;
+    width: 80%;
+    margin-left: 7%;
+    padding: 3%;
+    background-color: #EFEFEF;
+    border: solid 2px #293449;
+}
+
+.bx1 {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.bx1 p {
+    width: 350px;
+    font-size: 22px;
+    color: #293449;
+    float: left;
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.bx1 img {
+    width: 80px;
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.bx1 img:hover {
+    opacity: 70%;
+    transition: ease-in-out .2s;
+}
+
+.bx1 i {
+    width: 45px;
+    font-size: 80px;
+    color: #E65F5F;
+    float: right;
+    margin-top: 2px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.bx1 i:hover {
+    opacity: 70%;
+    transition: ease-in-out .2s;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    margin: 60px auto;
+    float: left;
+}

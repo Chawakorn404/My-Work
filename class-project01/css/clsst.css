@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;600&display=swap');
+* {
+    font-family: 'Mitr', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #C3F1DC;
+    color: #293449;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #293449;
+}
+
+.header img {
+    width: 70px;
+    margin-left: 60px;
+    float: left;
+}
+
+.header-link {
+    float: right;
+    margin-right: 20px;
+}
+
+.header-link a {
+    float: left;
+    font-size: 20px;
+    color: #EFEFEF;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.heading1 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10%;
+    float: left;
+}
+
+.heading1 h1 {
+    width: 60%;
+    color: #293449;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.pls img {
+    width: 7%;
+    float: right;
+    margin-top: 4%;
+    /* margin-right: 9%; */
+    margin-left: 800px;
+    margin-top: 600px;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.itm {
+    width: 80%;
+    float: left;
+    padding-top: 10%;
+    /* padding-bottom: 5%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 2%; */
+    text-align: center;
+    color: #EFEFEF;
+    background-color: #e65f5f;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.itm1 {
+    width: 80%;
+    float: left;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 5%; */
+    text-align: center;
+    color: #EFEFEF;
+    background-color: #293449;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.tm {
+    margin-top: 10%;
+    width: 98%;
+    height: 30%;
+    color: #293449;
+    padding: 1%;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+    background-color: #EFEFEF;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    margin: 60px auto;
+    float: left;
+}
