@@ -1,2 +1,2 @@
 # My Work Collection
-รวมผลงานที่เคยทำ
+รวมชิ้นงาน Exercise
